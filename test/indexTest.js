@@ -70,4 +70,3 @@ describe('my own reduce-like methods', function() {
     })
   })
 })
-
