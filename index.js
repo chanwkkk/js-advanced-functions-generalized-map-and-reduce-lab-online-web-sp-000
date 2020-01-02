@@ -6,3 +6,5 @@ function map(array,func){
 function reduce(array,func,startingPoint=0){
   return array.reduce(func,startingPoint)
 }
+
+[1, 2, true, "razmatazz"].reduce(function(a, memo){ return !!a && !!memo}))
