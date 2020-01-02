@@ -7,6 +7,5 @@ function reduce(array,func,startingPoint){
   if (!!startingPoint)
    {return array.reduce(func,startingPoint)}
    else {startingPoint=0;return array.reduce(func)}
-   
-}
 
+}
